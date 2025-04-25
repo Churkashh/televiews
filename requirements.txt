@@ -1,0 +1,5 @@
+PyYAML==6.0.2
+pydantic==2.10.4
+loguru==0.7.2
+colorama==0.4.6
+tls-client==1.0.1

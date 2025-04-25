@@ -1,0 +1,4 @@
+main:
+    threads: 10
+    log_proxy_err: false
+    detailed_exception_log: false
