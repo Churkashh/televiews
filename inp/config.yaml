@@ -1,4 +1,6 @@
 main:
     threads: 10
     log_proxy_err: false
+    proxy_per_view: true
+    remove_proxies: true
     detailed_exception_log: false
