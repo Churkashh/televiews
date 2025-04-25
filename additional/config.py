@@ -15,6 +15,8 @@ class Config(BaseModel):
 class MainConfig(BaseModel):
     threads: int
     log_proxy_err: bool
+    proxy_per_view: bool
+    remove_proxies: bool
     detailed_exception_log: bool
 
 def validate_config():
@@ -37,4 +39,6 @@ main_config = validate_config()
 
 THREADS = main_config.threads
 PROXY_ERR_LOG = main_config.log_proxy_err
+PROXY_PER_VIEW = main_config.proxy_per_view
+REMOVE_PROXIES = main_config.remove_proxies
 DETAILED_EXCEPTION = main_config.detailed_exception_log
