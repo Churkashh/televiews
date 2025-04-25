@@ -32,11 +32,15 @@
     main:
       threads: 10
       log_proxy_err: false
+      proxy_per_view: false
+      remove_proxies: false
       detailed_exception_log: false
     ```
 
    - **threads**: Number of threads to run.
    - **log_proxy_err**: Set to `true` to log proxy-related errors (default: `false`).
+   - **proxy_per_view**: Set to `true` to use one proxy per view (default: `false`).
+   - **remove_proxies**: Set to `true` to remove used proxies from the `proxies.txt` if proxy_per_view set to `true` (default: `false`).
    - **detailed_exception_log**: Set to `true` for detailed exception logs (default: `false`).
 
 4. Run the tool:
@@ -52,6 +56,8 @@ Modify `config.yaml` to adjust settings as needed:
 main:
   threads: 10
   log_proxy_err: false
+  proxy_per_view: false
+  remove_proxies: false
   detailed_exception_log: false
 ```
 
