@@ -2,6 +2,8 @@ from colorama import Fore
 from additional.config import (
     THREADS,
     PROXY_ERR_LOG,
+    PROXY_PER_VIEW,
+    REMOVE_PROXIES,
     DETAILED_EXCEPTION,
 )
 
